@@ -1,5 +1,7 @@
-function sayHello() {
-  let name = prompt("This is my First Assignment . Please enter your name:");
-  let message = "Hello , " + name + "! 👋";
-  document.getElementById("greeting").innerText = message;
-}
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1 id="text">Hello World!</h1>
+    <button onclick="document.getElementById('text').style.color='blue'">Click Me</button>
+  </body>
+</html>
